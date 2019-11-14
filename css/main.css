@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+
+h1 {
+  display: block;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 2rem;
+}
