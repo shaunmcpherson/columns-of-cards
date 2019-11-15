@@ -48,6 +48,11 @@ body {
   align-items: center;
 }
 
+.cards p {
+  padding: 0;
+  margin: 0;
+}
+
 .cards2 {
   background-color: #ccc;
 }
@@ -62,12 +67,16 @@ body {
 
 .card {
   padding: 0;
-  margin: 0;
+  margin: 0 0 1.5rem;
   display: block;
 }
 
 .card li {
   list-style: none;
+}
+
+.card i {
+  font-size: .875rem;
 }
 
 .btn {
