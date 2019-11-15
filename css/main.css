@@ -14,9 +14,9 @@ body {
   background-color: #f2f2f2;
 }
 
-.header h1 {
+.header h2 {
   display: block;
-  padding: 0;
+  padding: 1.5rem 0 0;
   margin: 0;
   text-align: center;
   font-size: 2rem;
@@ -35,13 +35,14 @@ body {
   border-left: 1px solid #333;
   border-right: 1px solid #333;
   margin: 0 0 1.5rem;
-  flex-basis: 25%;
+  flex-grow: 1;
+  width: 25%;
   padding: .75rem;
   background-color: #e2e2e2;
   position: relative;
 }
 
-.cards img {
+img {
   max-width: 100px;
   margin: 0 auto 1.5rem;
   display: block;
@@ -73,6 +74,12 @@ body {
 
 .card li {
   list-style: none;
+}
+
+.card h3 {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
 }
 
 .card i {
